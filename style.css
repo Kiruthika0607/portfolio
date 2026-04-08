@@ -1,9 +1,18 @@
-:root {
+  :root {
     --bg-main: #020617;
     --bg-card: #020617;
     --accent: #38bdf8;
     --text-main: #e5e7eb;
     --text-muted: #94a3b8;
+}
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px;
+    border: 3px solid var(--accent);
 }
 
 * {
